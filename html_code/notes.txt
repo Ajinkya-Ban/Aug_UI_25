@@ -1,0 +1,130 @@
+UL(unordered List) and OL(order List):
+----------------------------------------------------
+Basically this tag can be used for to make the menu's . The menu will be simple or dropdown.
+
+OL(order List):
+----------------------
+1. In this there is an order means sequance. 
+2. This can be used as <ol></ol>.
+3. The OL has default sequance is number. If i want to change this sequqnce i can use one attribute called as type attribute.
+4. The type attribute is not deprecated for <ol></ol> tag.
+5. If i want to make the menu dropdown than i can use the nested <ol></ol>.
+========================================================================================= 
+
+
+
+Image Map:
+--------------------
+Image mapping is nothing but to create clickable areas on image that is called image mapping.
+
+If we want to image mapping in html, the html provide us two tags called,
+a) map 
+b) area
+    shape --> rect, circle, poly
+    coordis
+
+We can create a number of areas in a single map. 
+=========================================================================
+Table Tag:
+-------------------
+Table tag can  be used for to display the data from database on webpage.
+By using the table tag we display the data in the form of rows and cols.
+We can also use the table tag for formatting and to place the alignment 
+for content.
+We can also use the table tag for to create the website layout.But the problem is table tag dont support for responsive.
+
+Suppose i want to use table in html, html provide us tag called as <table></table>.
+
+We can also use some other tags to design the table.
+--------------------------------------------------------
+1. <table></table>
+2. <th></th> --> table heading 
+3. <thead></thead> ---> It is group of <th></th>
+4. <tbody></tbody> --> table body --> <tr></tr> --> table row --> <td></td>
+
+icons --> font awesome --> cdn link --> fontawesome icons
+===========================================================================================
+Form Tag in html
+-------------------------
+Why we use the form?
+-------------------------
+To collect the data.
+
+in html we can create the form using the <form></form>
+
+The <form></form> tag has some attributes which are listed below
+---------------------------------------------
+1. method
+2. action
+
+Example:
+---------------
+<form action="/login" method="get/post" enct-type>
+
+</form>
+
+API --> Application programming interface. 
+SQL injection Attack ---> stored procedure --> api 
+
+http://localhost:8080/add  --> json data 
+http://localhost:8080/get-data
+
+Action --> login.php, login.jsp, login.aspx
+end point --> /login,/get-data, /update-data 
+
+
+http methods 
+---------------------
+1. get ---> if i want to get the data from database.
+2. post --> new record status code 201--> login 
+3. patch/put --> to update the partial data(patch) or full data(put). 
+4. delete --> to delete specific record.
+
+
+enct-type
+---------------------
+file related --> jpg, png,gif,pdf,txt, xlsx, docx
+
+Employee Regi Form
+---------------------------
+fullname
+age
+gender --> radio button
+birthdate --> date
+email --> email
+mobile --> number
+skills --> checkbox
+address --> textarea
+Country --> select tag --> options
+State --> select
+City --> text
+Upload Photo --> file
+password --> password
+
+table + css 
+
+label tag --> static information 
+input type tag --> text, email, date, password, checkbox, radio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

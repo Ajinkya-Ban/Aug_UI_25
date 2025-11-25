@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/student.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Student Registration Form</h1>
+      </div>
+
+      <div class="form-data">
+        <form>
+          <table>
+            <tr>
+              <td class="lbl-width">
+                <label for="name">Enter FirstName</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="First Name"
+                  autocomplete="off"
+                />
+                <label class="note">(Max character 30 allowed)</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="lbl-width">
+                <label for="last">Enter LastName</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="last"
+                  name="last"
+                  placeholder="Last Name"
+                  autocomplete="off"
+                />
+                <label class="note">(Max character 30 allowed)</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="lbl-width">
+                <label for="birth">Select Birthdate</label>
+              </td>
+              <td>
+                <div class="dob">
+                  <select>
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+
+                  <select>
+                    <option>Month</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                  <select>
+                    <option>Year</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                  </select>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="lbl-width">Qualification</td>
+              <td class="qual">
+                <table>
+                  <tr>
+                    <th>Sr.No</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year Passing</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td>
+                      <input type="text" class="qual-text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>Class XII</td>
+                    <td>
+                      <input type="text" class="qual-text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>1</td>
+                    <td>Graduation</td>
+                    <td>
+                      <input type="text" class="qual-text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Post Graduation</td>
+                    <td>
+                      <input type="text" class="qual-text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                    <td>
+                      <input type="text" />
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

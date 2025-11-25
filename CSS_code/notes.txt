@@ -1,0 +1,153 @@
+CSS3
+----------------------------
+1. CSS Introduction
+2. What is basic syntax of writing css 
+3. What are the different types of css?
+4. What is mean by selectors and what are the different types of selectors?
+5. What is mean by psudeo elements?
+6. How we can draw basic layouts using html and css with float property?
+7. background property
+8. display 
+9. border property
+10. media query
+11. animation
+12. transform
+13. transition
+14. position
+=========================================================================
+1. CSS Introduction
+-------------------------
+CSS full form --> Cascading Stylesheet.
+purpose --> To create attractive desgin and make the pages responsive.
+CSS is not programming language. It is Stylesheet programming language.
+Every html has a style.
+Inline css has the heighest priority than internal css.
+
+
+
+Def : CSS is the beautiy parler for html elements.
+
+History
+----------------
+CSS was developed by Håkon Wium Lie and Bert Bos in 1996.
+After 1yrs in 1997 the next version of css came in market called as css level1.
+After 1yrs in 1998 the next version of css came in markey called as css level2.
+After 10yrs in 2008 the CSS3 came in market with more properties. 
+====================================================================================
+
+What is basic syntax of writing css
+---------------------------------------
+selectors
+{
+    key:value;
+    key:value;
+}
+
+Note: selectors means it is targetting elements like h1, img, table, div,section.
+=========================================================================================
+
+ What are the different types of css?
+ -----------------------------------------
+ There are 3 types of CSS presents which mentioned below.
+ 1. inline css :
+ ------------------------------
+ Inline css written inside the tag.
+ Example;
+ ---------------
+ <h1 style="color:orange">ByteCode</h1>
+----------------------------------------------------
+
+ 2. internal css:
+ --------------------------
+ This type of css can written inside the head section of single page.
+ by using tag called as <style></style>
+----------------------------------------------------
+3. external css (famous):
+------------------------------
+This types of css can be written inside external file which stored by using the extension called as .css 
+When we create this file, we need to link this file with our html page, by using <link> tag.
+<link> tag present inside <head></head>.
+
+How we can link one css file to another css file?
+---------------------------------------------------------
+By using @import keyword 
+
+Example:
+----------------------------
+I have two css files 
+style.css
+style1.css
+
+I want to add style1.css code inside style.css file
+@import "style1.css"
+
+What is mean by selectors and what are the different types of selectors?
+--------------------------------------------------------------------------
+Def : selectors are the targetting elements.
+
+What are the different types of selectors?
+----------------------------------------------------
+1. id selectors:
+-----------------------
+Id selectors are unique. Id can represented by using # symbol.
+
+The combination of padding and Margin is called css box model
+Padding: clockwise direction --> top, right, bottom, left
+Margin: clockwise direction --> top, right, bottom, left
+
+Padding : Inside the space between border.
+padding-right, padding-left, padding-top, padding-bottom
+padding: 10px 20px  --> 10px --> top bottom and 20px --> left right
+padding:10px --> padding set in all direction.
+Margin : Outside space of border.
+-------------------------------------------------------------------------
+
+2. class selectors:
+-----------------------------
+Class selectors can be denoted by dot(.). We can use multiple classes for single element.
+
+3. tag selectors:
+-----------------------------
+We can use html element directly for targetting. 
+Example:
+----------------
+h1, img, div, p, table, tr, td 
+--------------------------------------------------------
+
+
+4. class with tag selectors:
+---------------------------------
+Directly we target class with html tag. 
+
+5. group selectors:
+--------------------------
+We create group of element. 
+Example:
+----------------
+h1,h2
+-------------------------------
+6. psudeo elements
+---------------------------
+In html there are total 6 psudeo elements are present. 
+1. After
+2. before
+3. first-line
+4. first-letter
+5. selection
+6. placeholder
+7. marker
+7. psudeo classes
+8. Universal selectors 
+===========================================================================
+Basic layouts
+----------------------------
+1. width 
+2. min-height / height
+3. background-color
+4. color
+5. padding
+6. Margin
+7. border
+8. float --> right, left 
+9. display --> block, inline, inline-block
+10. text-decoration

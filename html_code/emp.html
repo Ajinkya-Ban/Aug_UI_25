@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/emp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-heading">
+        <h1>Employee Registration Form</h1>
+      </div>
+      <div class="form-data">
+        <form
+          action=""
+          method=""
+          enctype="multipart/form-data"
+          name="regi"
+          accept-charset="UTF-8"
+          id=""
+        >
+          <table>
+            <tr>
+              <td class="text-align">
+                <label for="name">FullName</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  name="fname"
+                  placeholder="Enter name here"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="age">Age</label>
+              </td>
+              <td>
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  placeholder="Enter age here"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="gender">Select Gender</label>
+              </td>
+              <td>
+                <input type="radio" id="male" name="gender" value="male" />
+                Male
+
+                <input type="radio" id="female" name="gender" value="female" />
+                Female
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="birth">Select Birthdate</label>
+              </td>
+              <td>
+                <input type="date" id="birth" name="birth" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="email">Enter Email Address</label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="mobile">Enter Mobile Number</label>
+              </td>
+              <td>
+                <input
+                  type="number"
+                  id="mobile"
+                  name="mobile"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="skills">Select Skills</label>
+              </td>
+              <td>
+                <input
+                  type="checkbox"
+                  id="javascript"
+                  name="javascript"
+                  value="javascript"
+                />
+                Javascript
+
+                <input type="checkbox" id="html" name="html" value="html" />
+                HTML
+
+                <input type="checkbox" id="css" name="css" value="css" />CSS
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="address">Enter Full Address</label>
+              </td>
+              <td>
+                <textarea id="address" name="add" class="add" rows="4">
+                </textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="country">Select Country</label>
+              </td>
+              <td>
+                <select id="country" name="country">
+                  <!--autofocus multiple-->
+                  <!-- <optgroup label="Maharashtra">
+                    <option value="pune">Pune</option>
+                  </optgroup>
+
+                  <optgroup label="Gujrat">
+                    <option value="Surat">Surat</option>
+                  </optgroup> -->
+
+                  <option value="select">Select</option>
+                  <option value="India">India</option>
+                  <option value="Dubai">Dubai</option>
+                  <option value="Aus">Australia</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="state">Select State</label>
+              </td>
+              <td>
+                <select id="state" name="state">
+                  <option value="select">Select</option>
+                  <option value="mh">Maharashtra</option>
+                  <option value="guj">Gujrat</option>
+                  <option value="UP">Uttar Pradesh</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="text-align">
+                <label for="photo">Upload Photo</label>
+              </td>
+              <td>
+                <input type="file" />
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td>
+                <input type="button" value="Register" class="btnRegi" />
+                <button class="btnclr">Clear</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

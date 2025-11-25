@@ -1,0 +1,52 @@
+table,
+th,
+tr,
+td {
+  border: 1px solid lightgray;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: black;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.emp_table {
+  border: 1px solid red;
+  width: 90%;
+  margin: auto;
+  padding: 8px;
+  overflow-x: auto;
+}
+.emp_table h1 {
+  text-align: center;
+}
+.edit {
+  width: 100px;
+  text-decoration: none;
+  background-color: royalblue;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+}
+.delete {
+  width: 100px;
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+}

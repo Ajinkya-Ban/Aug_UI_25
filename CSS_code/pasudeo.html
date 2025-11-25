@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 300px;
+        min-height: 140px;
+        border: 1px solid #000;
+        margin: auto;
+      }
+      .box p {
+        padding: 10px;
+        font-size: 20px;
+      }
+      /* .box p::before {
+        content: "javascript";
+        color: yellow;
+      }
+      .box p::after {
+        content: "is easy";
+        color: red;
+      } */
+      /* .box p::first-line {
+        color: red;
+      } */
+      /* .box p::first-letter {
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+      } */
+      ::selection {
+        background-color: lightseagreen;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Welcome</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+        possimus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+        possimus.
+      </p>
+    </div>
+  </body>
+</html>
