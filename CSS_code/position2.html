@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 600px;
+        height: 300px;
+        border: 1px solid #000;
+        margin: auto;
+        background-image: url(./imgs/grass.jpg);
+        background-size: 100% 100%;
+        /* position: relative; */
+      }
+      .jerry img {
+        width: 90px;
+        height: 100px;
+        position: absolute;
+        /* top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -11111111; */
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="jerry">
+        <img src="./imgs/Jerry_Mouse.png" />
+      </div>
+    </div>
+  </body>
+</html>
