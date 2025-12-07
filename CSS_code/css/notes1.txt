@@ -1,0 +1,165 @@
+Introduction of css
+Types of CSS 
+    1. inline
+    2. internal
+    3. external
+
+Selectors:
+-----------------
+It is targetting element.
+    Types of Selectors
+        1. Id Selectors --> #
+        2. class Selectors --> dot(.)
+        3. tag Selectors --> h1, img, div 
+        4. class with tag Selectors --> 
+        5. Psudeo element --> :: after, before, first-line, first-letter, selection, placeholder, marker
+        6. Psudeo classes --> : total classes 35+ above 
+        7. Group Selectors --> h1,h3 
+        8. Universal Selectors --> indicate by using * 
+
+CSS Box Model:
+-----------------------
+1. Padding : Inside the space between border.
+2. Margin : Outside space of border.
+
+padding and margin works in clockwise direction.
+padding-top, padding-right, padding-bottom, padding-left same for margin.
+padding : 10px --> all side it has value 10px  
+padding: 10px 20px --> first value indicate top and bottom and last value indicate left and right.
+
+Desgin the basic layout using only 10 properties of css 
+---------------------------------------------------------------
+We can Desgin the layout by using float property dont use flex and grid. 
+Below there are 10 properties
+-----------------------------------
+1. width
+2. height / min-height
+3. background-color
+4. color
+5. padding
+6. margin
+7. text-decoration --> none 
+8. text-align --> right, center, left, justify
+9. float --> right, left 
+10. display --> block, inline, inline-block, flex, grid, table, list
+11. border 
+
+
+1. container
+2. wrapper
+3. box 
+===========================================================================================================
+background
+--------------
+background-color
+--------------------------------
+background color has one drawback  it apply only one color at a time.
+background-color --> by colorname, hexadecimal colors, rgb/rgba values.
+
+But my requirement is that i want apply multiple colors than we can use one function called as linear-gradient().
+
+basic syntax of linear-gradient
+--------------------------------
+linear-gradient(direction/deg, colors)
+direction --> to right, to left, to top, to bottom
+colors --> multiple colors apply
+
+background-image:
+-----------------------------
+
+This property peform two task
+1. It take background-color --> linear-gradient()
+2. It take image as background --> url(imagePath)
+
+background-Position:
+-------------------------
+This property set the Position of the image. 
+We pass values like --> right, left, top, bottom, center
+
+background-size:
+-------------------------
+It wil adjust the image --> cover, contain or you can also use width and height in the percent as well as pixel format.
+
+
+background-repeat:
+------------------------
+This property avoid repeatation of the image if image is to small.
+By default it set as repeat.
+background-repeat has below properties
+
+1. repeat --> default
+2. no-repeat --> avoid the repeatation of the image
+3. repeat-x --> If i want repeat the image in horizantal direction
+4. repeat-y --> If i want repeat the image in vertical direction.
+
+
+background-attachment:
+------------------------------
+1. scroll --> It will scroll image
+2. fixed --> It will fix the image with page
+
+
+Position
+----------------------
+1. relative --> 
+2. absolute
+3. sticky
+4. fixed
+5. static --> by default all html element has static in nature.
+              Static element can be moved by using padding and margin 
+
+              But my requirement is i want to move static element without using margin and padding?
+
+              So for this we use the Position properties and below are the some property we use 
+              a) right
+              b) left
+              c) top
+              d) bottom 
+              e) z-index 
+========================================================================
+border
+-----------------------
+border: 2px solid gray
+
+
+border-image
+--------------------------
+1. border-image-source: url()
+2. border-image-slice: 
+3. border-image-width
+4. border-image-repeat
+5. border-image-outset
+
+
+
+backdrop-fillter
+-----------------------------
+blur --> blur(1px)
+brightness(100%) --> original --> brightness(140%)
+contrast(100%) --> original --> contrast(130%)
+sepia : to add brownish color --> sepia(130%)
+grayscale --> to convert image as black and white
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
