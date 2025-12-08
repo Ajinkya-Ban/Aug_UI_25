@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 80%;
+        /* height: 300px; */
+        padding: 10px;
+        /* min-height: 200px; */
+        margin: auto;
+        border: 1px solid #000;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: flex-end;
+        gap: 10px; */
+        /* align-items: stretch; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        /* align-content: space-between; */
+      }
+      .item1 {
+        background-color: orange;
+      }
+      .item2 {
+        background-color: green;
+        /* order: 2; */
+      }
+      .item3 {
+        background-color: crimson;
+      }
+      .item4 {
+        background-color: purple;
+        order: -1;
+      }
+      .item5 {
+        background-color: black;
+        order: -2;
+      }
+      .item6 {
+        background-color: royalblue;
+      }
+      .item7 {
+        background-color: lightskyblue;
+      }
+      .item8 {
+        background-color: lightslategray;
+      }
+      .item9 {
+        background-color: lightpink;
+      }
+      .items {
+        padding: 10px;
+        color: white;
+        margin: 10px;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="items item1">div1</div>
+      <div class="items item2">div2</div>
+      <div class="items item3">div3</div>
+      <div class="items item4">div4</div>
+      <div class="items item5">div5</div>
+      <div class="items item6">div6</div>
+      <!-- <div class="items item7">div7</div>
+      <div class="items item8">div8</div>
+      <div class="items item9">div9</div> -->
+    </div>
+  </body>
+</html>
