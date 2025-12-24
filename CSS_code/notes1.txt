@@ -172,7 +172,7 @@ When we use flex we need some properties, So below are some properties,
                 a) flex-start
                 b) flex-end
                 c) center
-                d) stretch
+                d) stretch (default)
 
 5. flex-wrap: default nowrap, wrap, wrap-reverse
 
@@ -191,16 +191,83 @@ f) space-evenly
 When we use negative value all the element will move on left side
 When we use positive value all the element will move on right side
 
+8. flex-basis: It divides the width. When we use this property there is no need of using height property
+
+9. flex-grow: It divide equal width with all element, if there is an extra space avilable. You can also use this property with single element also.
+
+flex-grow : 1 you can also call like flex-grow: 2 
+
+
+10.align-self: This property is same as align-items so only difference is that align-items work with multiple elements and align-self can work with single element.
+align-self:
+                a) flex-start
+                b) flex-end
+                c) center
+                d) stretch (default)
+                e) auto
+The auto will work as per the parent property. If the parent contains align-item: center
+then single element also move according to the parent.
 
 
 
+5. grid: 
+--------------------------
+1. In flex there is one problem you can work only in one direction at a time.
+2. To solve this problem css introduce new concept called as grid.
+3. In Grid you can work both direction at a time that is in row direction as well as 
+   in column direction.
+4. By using the grid you can make the website 85% responsive.
+5. Basically we can use the grid for making the layouts, responsive image gallery,
+   admin dashboard, cards, 
+6. For learning the grid we know some properties of grid that are listed below.
+
+Basic Grid properties:
+--------------------------
+1. display: grid
+2. grid-template-columns : indirectly you work on width.
+3. grid-template-rows : indirectly you work on height.
+4. grid-row-gap
+5. grid-column-gap
+6. gap 
+
+Grid Positioning Properties:
+----------------------------------------
+If i want to place the grid items in a perticular location than i can use below properties for grid placement.
+To change the placement of grid you know the grid number system.
 
 
+1. grid-column-start 
+2. grid-column-end
+3. grid-row-start
+4. grid-row-end
+5. grid-column : column start / column end
+6. grid-row : row start / row end
+7. grid-area : row-start / column start / row end / column end
 
-5. grid 
-6. list 
-7. table 
-------------------------------------------------------------
+
+Grid Spanning
+-------------------------------
+Grid Spanning is nothing but to merge columns and rows. 
+
+For the Spanning we use the some properties as below
+
+1. grid-column-start 
+2. grid-column-end
+3. grid-row-start
+4. grid-row-end
+5. grid-column : column start / column end
+6. grid-row : row start / row end
+7. grid-area : row-start / column start / row end / column end
+
+
+Naming the grid
+--------------------------------------
+1. grid-area : grid items provide the name
+2. grid-template-areas
+
+Nested Grid
+------------------------------
+Grid within the grid is called as nested grid.
 
 
 
