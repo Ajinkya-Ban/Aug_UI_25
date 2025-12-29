@@ -270,6 +270,27 @@ Nested Grid
 Grid within the grid is called as nested grid.
 
 
+Grid Item placement
+--------------------------------
+align-item : vertical --> start, center, end, stretch
+justify-item : horizantal --> start, center, end, stretch
+place-item : align-item justify-item
+
+align-self
+justify-self
+place-self 
+
+order
+-------------------
+To change the location of div we use order property.
+In this we only pass positive value.
+
+
+Q. What is mean by minmax(), min-content, max-content?
+-----------------------------------------------------------
+
+
+
 
 
 

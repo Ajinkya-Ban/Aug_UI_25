@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --backgroundColor: #eee;
+        --box1BackgroundColor: orange;
+      }
+
+      .box {
+        width: 600px;
+        background-color: var(--backgroundColor);
+        margin: auto;
+        border: 1px solid #000;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, minmax(150px, min-content));
+        gap: 10px;
+        /* align-items: stretch; */
+        /* justify-items: end; */
+        /* place-items: center center; */
+      }
+      .item {
+        padding: 10px;
+        color: white;
+      }
+      .box1 {
+        background-color: var(--box1BackgroundColor);
+        /* order: 1; */
+      }
+      .box2 {
+        background-color: green;
+        /* align-self: center; */
+      }
+      .box3 {
+        background-color: black;
+        /* place-self: center center; */
+        /* order: 2; */
+      }
+      .box4 {
+        background-color: royalblue;
+      }
+      .box5 {
+        background-color: crimson;
+      }
+      .box6 {
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="item box1">box1</div>
+      <div class="item box2">box2</div>
+      <div class="item box3">
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+      </div>
+      <div class="item box4">box4</div>
+      <div class="item box5">box5</div>
+      <div class="item box6">box6</div>
+    </div>
+  </body>
+</html>
